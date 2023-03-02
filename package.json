@@ -1,19 +1,19 @@
 {
-  "name": "@creatoon/tagtest",
-  "version": "1.0.3",
-  "description": "",
-  "main": "index.js",
-  "bin": {
-    "tagtest": "index.js"
-  },
-  "scripts": {
-    "postinstall": "if [ \"$NODE_ENV\" == \"production\" ]; then node -e \"require('fs').existsSync('githooks') && require('./githooks/configure.js').configure()\"; fi",
-    "start": "node index.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^4.1.1"
-  }
+	"name": "@creatoon/tagtest",
+	"version": "1.0.4",
+	"description": "",
+	"main": "index.js",
+	"bin": {
+		"tagtest": "index.js"
+	},
+	"scripts": {
+		"postinstall": "if [ \"$NODE_ENV\" == \"production\" ]; then node -e \"require('fs').existsSync('githooks') && require('./githooks/configure.js').configure()\"; fi",
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^4.1.1"
+	}
 }
